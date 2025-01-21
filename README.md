@@ -14,7 +14,6 @@ Project Components
         Perform descriptive data mining to uncover patterns and insights.
         Build a predictive model using linear regression to forecast student performance in future assignments.
 
-Prerequisites
 Software Requirements
 
     MariaDB: To create and manage the relational database.
@@ -27,13 +26,13 @@ Software Requirements
         seaborn
         scikit-learn
 
-Step 1: Load Data into MariaDB
+Part 1: Load Data into MariaDB
 
     1. Import the CSV files into MariaDB.
     2. Create tables based on the schema described in the ER-Diagram.
     3. Ensure primary and foreign key constraints are properly defined.
 
-Step 2: Data Transformation and Cleansing
+Part 2: Data Transformation and Cleansing
 
     1. Validation Checks:
         Completeness: Check for missing values and report exceptions.
@@ -48,13 +47,13 @@ Step 2: Data Transformation and Cleansing
     3. Handle Specific Exceptions:
         Remove or report invalid entries as per the validation requirements outlined in the project description.
 
-Step 3: Descriptive Analytics
+Part 3: Descriptive Analytics
 
     1. Use Jupyter Notebook to perform descriptive analytics on the transformed data.
     2. Visualize insights using libraries like matplotlib and seaborn.
     3. Document patterns and trends in the data.
 
-Step 4: Predictive Analytics
+Part 4: Predictive Analytics
 
     1. Use the historical performance data to build a linear regression model:
         a. Input: Effort (hours spent on an assignment).
@@ -62,7 +61,7 @@ Step 4: Predictive Analytics
     2. Train and validate the model using scikit-learn.
     3. Predict the scores for specific students (e.g., SID20131151, SID20149500, SID20182516) assuming 10 hours of effort.
 
-Step 5: Reporting
+Part 5: Reporting
 
     1. Generate a report summarizing:
         a. Data cleansing efforts and exceptions identified.
