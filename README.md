@@ -56,8 +56,8 @@ Part 3: Descriptive Analytics
 Part 4: Predictive Analytics
 
     1. Use the historical performance data to build a linear regression model:
-        a. Input: Effort (hours spent on an assignment).
-        b. Output: Predicted score.
+        Input: Effort (hours spent on an assignment).
+        Output: Predicted score.
     2. Train and validate the model using scikit-learn.
     3. Predict the scores for specific students (e.g., SID20131151, SID20149500, SID20182516) assuming 10 hours of effort.
 
